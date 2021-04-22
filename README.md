@@ -20,7 +20,7 @@ Currently, Resilionator offers various functionalities, which are described belo
 
 **Menu: Graph**
 - Show graph: Show the current imported or created graph.
-- Import graph: Import a graph from a ```text file (.txt)```. For testing purposes and syntax you can find an example graph located in ```imports/testGraph.txt```.
+- Import graph: Import a graph from a ```text file (.txt)```. For testing purposes and syntax you can find an example graph located in ```graphs/testGraph.txt```.
 - Export graph: Export the current graph into a ```.txt``` file. 
 - Save graph as image: Save the current graph as ```.png or .jpg```.
 - Remove graph: Remove the currently imported graph.
