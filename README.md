@@ -1,5 +1,5 @@
 # Resilionator
-Resilionator is a small and portable Python application for identifying and mitigating potential weak points in networks. The application is still in development, so we appreciate your feedback!
+Resilionator is a small and portable Python application for identifying and mitigating potential weak points in networks. The application is still in development, so your feedback is welcome!
 
 
 ## Installation
@@ -16,7 +16,7 @@ Download the file located in ```linux/resilionator.deb```. Open the terminal and
 
 
 ## Usage
-Currently, Resilinator offers various functionalities, which are described below:
+Currently, Resilionator offers various functionalities, which are described below:
 
 **Menu: Graph**
 - Show graph: Show the current imported or created graph.
