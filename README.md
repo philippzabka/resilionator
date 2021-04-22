@@ -41,3 +41,10 @@ Currently, Resilionator offers various functionalities, which are described belo
   - K-Node augmentation: Make the current graph resiliient against one or two node failures.
   - K-Edge augmentation: Make the current graph resiliient against one or two edge failures.
 
+
+## Screenshots
+
+![Homescreen](/images/res1.png?raw=true "Homescreen")
+![Node connectivity](/images/res2.png?raw=true "Node connectivity")
+
+
