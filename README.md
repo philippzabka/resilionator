@@ -1,18 +1,20 @@
+# zabka-resilionator-internal
+
 # Resilionator
 Resilionator is a small and portable Python application for identifying and mitigating potential weak points in networks. The application is still in development, so your feedback is welcome! It is build with Python's standard GUI toolkit [Tkinter](https://docs.python.org/3/library/tkinter.html) and [NetworkX](https://networkx.org/).
 
 
 ## Installation
-Resilinator is available for Windows, macOS and Linux. Follow the steps described above to run the application on your operating system.  
+Resilinator is available for Windows, macOS and Linux. [Download](https://ucloud.univie.ac.at/index.php/s/JfBASDl7sSR3WdM) the appropriate file for your operating system and follow the steps described above to run the application on your operating system. 
 
 **Windows**
-Download the file located in ```windows/resilionator.exe```. Then double click on the file in order to run it.
+Download the file located in ```windows/resilionator.zip```. Unpack it and then double click on the file in order to run it.
 
 **maOS**
-Download the file located in ```macOS/resilionator.app```. Then double click on the file in order to run it.
+Download the file located in ```macOS/resilionator.zip```. Unpack it and then double click on the file in order to run it.
 
 **Linux (Ubuntu)**
-Download the file located in ```linux/resilionator.deb```. Open the terminal and drag and drop the file into the terminal window then hit enter.
+Download the file located in ```linux/resilionator.zip```. Unpack it and then open the terminal and drag and drop the file into the terminal window then hit enter.
 
 
 ## Usage
@@ -38,13 +40,4 @@ Currently, Resilionator offers various functionalities, which are described belo
 - Augmentation
   - K-Node augmentation: Make the current graph resiliient against one or two node failures.
   - K-Edge augmentation: Make the current graph resiliient against one or two edge failures.
-
-
-
-
-
-
-
-
-
 
