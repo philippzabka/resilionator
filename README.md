@@ -1,5 +1,5 @@
 # Resilionator
-Resilionator is a small and portable Python application for identifying and mitigating potential weak points in networks. The application is still in development, so your feedback is welcome! It is build with Python's standard GUI toolkit [tkinter](https://docs.python.org/3/library/tkinter.html) and [NetworkX](https://networkx.org/).
+Resilionator is a small and portable Python application for identifying and mitigating potential weak points in networks. The application is still in development, so your feedback is welcome! It is build with Python's standard GUI toolkit [Tkinter](https://docs.python.org/3/library/tkinter.html) and [NetworkX](https://networkx.org/).
 
 
 ## Installation
