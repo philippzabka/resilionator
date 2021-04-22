@@ -44,7 +44,7 @@ Currently, Resilionator offers various functionalities, which are described belo
 
 ## Screenshots
 
-![Homescreen](/images/res1.png?raw=true "Homescreen")
-![Node connectivity](/images/res2.png?raw=true "Node connectivity")
+![Homescreen](/screenshots/res1.png?raw=true "Homescreen")
+![Node connectivity](/screenshots/res2.png?raw=true "Node connectivity")
 
 
