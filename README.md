@@ -11,7 +11,7 @@ Download the file located in ```windows/resilionator.exe```. Then double click o
 **maOS**
 Download the file located in ```macOS/resilionator.app```. Then double click on the file in order to run it.
 
-**Linux**
+**Linux (Ubuntu)**
 Download the file located in ```linux/resilionator.deb```. Open the terminal and drag and drop the file into the terminal window then hit enter.
 
 
