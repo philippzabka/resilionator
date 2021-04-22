@@ -3,7 +3,7 @@ Resilionator is a small and portable Python application for identifying and miti
 
 
 ## Installation
-Resilinator is available for Windows, macOS and Linux. [Download](https://ucloud.univie.ac.at/index.php/s/JfBASDl7sSR3WdM) the appropriate file for your operating system and follow the steps described above to run the application on your operating system. 
+Resilinator is available for Windows, macOS and Linux. [Download](https://ucloud.univie.ac.at/index.php/s/JfBASDl7sSR3WdM) the appropriate file for your operating system and follow the steps described above to run the application. 
 
 **Windows**
 Download the file located in ```windows/resilionator.zip```. Unpack it and then double click on the file in order to run it.
