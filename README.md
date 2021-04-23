@@ -6,13 +6,13 @@ Resilionator is a small and portable Python application for identifying and miti
 Resilinator is available for Windows, macOS and Linux (64-bit operating system, x64-based processor). [Download](https://ucloud.univie.ac.at/index.php/s/JfBASDl7sSR3WdM) the appropriate file for your operating system and follow the steps described above to run the application. 
 
 **Windows**
-Download the file located in ```windows/resilionator.zip```. Unpack it and then double click on the file in order to run it.
+Download the file located in ```windows/Resilionator.zip```. Unpack it and then double click on the file in order to run it.
 
 **maOS**
-Download the file located in ```macOS/resilionator.zip```. Unpack it and then double click on the file in order to run it.
+Download the file located in ```macOS/Resilionator.zip```. Unpack it and then double click on the file in order to run it.
 
 **Linux (Ubuntu)**
-Download the file located in ```linux/resilionator.zip```. Unpack it and then open the terminal and drag and drop the file into the terminal window then hit enter.
+Download the file located in ```linux/Resilionator.zip```. Unpack it and then open the terminal and drag and drop the file into the terminal window then hit enter.
 
 
 ## Usage
