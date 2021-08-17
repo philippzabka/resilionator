@@ -16,14 +16,15 @@ Download the file located in ```linux/Resilionator.zip```. Unpack it and then op
 
 
 ## Usage
-Currently, Resilionator offers various functionalities, which are described below:
+Resilionator offers various functionalities, which are described below:
 
 **Menu: Graph**
-- Show graph: Show the current imported or created graph.
-- Import graph: Import a graph from a ```text file (.txt)```. For testing purposes and syntax you can find an example graph located in ```graphs/testGraph.txt```.
-- Export graph: Export the current graph into a ```.txt``` file. 
+- Show graph: Show the current graph.
+- Create random graph: Creates a random graph for quick testing.
+- Import graph: Import a graph from a ```.txt```, ```.gml``` or ```.graphml``` file. Text file syntax has to be NetworkX compatile. For more details please consult  [File Format](https://networkx.org/documentation/stable/reference/readwrite/edgelist.html#format).
+- Export graph: Export the graph into a ```.txt```, ```.gml``` or ```.graphml``` file.  
 - Save graph as image: Save the current graph as ```.png or .jpg```.
-- Remove graph: Remove the currently imported graph.
+- Remove graph: Remove the current graph.
 - Node
   - Add node: Add a new node to the graph.
   - Remove node: Remove a node from the graph. 
@@ -33,12 +34,18 @@ Currently, Resilionator offers various functionalities, which are described belo
 
 **Menu: Analysis**
 - Connectivity
-  - Node connectivity: Check if the current graph is still connected after removing a specific node. 
-  - Edge connectivity: Check if the current graph is still connected after removing a specific edge. 
+  - Node connectivity: Check if the current graph is still connected after removing a specific node. This action is peformed for all nodes in the graph. 
+  - Edge connectivity: Check if the current graph is still connected after removing a specific edge. This action is peformed for all edges in the graph.
 - Augmentation
   - K-Node augmentation: Make the current graph resiliient against one or two node failures.
   - K-Edge augmentation: Make the current graph resiliient against one or two edge failures.
 
+**Menu: Routing**
+- Dijkstra - Original: Dijkstra shortest path algorithm. A ```source``` and ```target``` node need to be specified. Additionally nodes can be excluded from the path finding process. 
+- Dijkstra - Recalulated distances: Dijkstra shortest path algortihm, however distances are recalculated. This prevents the algorithm to get stuck if nodes become unavailable during the routing process.
+- Custom Routing: The user can specify his own simple routing process by providing a priority list. 
+  - Priority list: A  ```.txt``` file containing the neighbors of nodes ordered after their priority.
+  - Syntax:  ```<node>{<neighbor 1>,<neighbor 2>,...,<neighbor n>}```. The file doesn't have to contain priorities for all nodes or neighbors of a node. You can find an example [here](https://networkx.org/documentation/stable/reference/readwrite/edgelist.html#format).  
 
 ## Screenshots
 
