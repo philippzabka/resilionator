@@ -18,6 +18,9 @@ Download the file located in ```linux/Resilionator.zip```. Unpack it and then op
 ## Usage
 Resilionator offers various functionalities, which are described below:
 
+**Quickmenu (Top)**
+The quick menu allows quick access to node/edge creation, creating a test graph or deleting a graph. There is also the option to change the layout of the graph.
+
 **Menu: Graph**
 - Show graph: Show the current graph.
 - Create random graph: Creates a random graph for quick testing.
