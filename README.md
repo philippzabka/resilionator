@@ -49,7 +49,10 @@ Resilionator offers various functionalities, which are described below:
 
 ## Screenshots
 
-![Homescreen](/screenshots/res1.png?raw=true "Homescreen")
-![Node connectivity](/screenshots/res2.png?raw=true "Node connectivity")
+![Homescreen](/screenshots/home.png?raw=true "Homescreen")
+![Node connectivity](/screenshots/node_con.png?raw=true "Node connectivity")
+![Dijkstra Routing](/screenshots/routing.png?raw=true "Dijkstra Routing")
+![Failure Resistance](/screenshots/resistance.png?raw=true "Failure Resistance")
+
 
 
