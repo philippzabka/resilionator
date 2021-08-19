@@ -44,8 +44,21 @@ Resilionator offers various functionalities, which are described below:
 - Dijkstra - Original: Dijkstra shortest path algorithm. A ```source``` and ```target``` node need to be specified. Additionally nodes can be excluded from the path finding process. 
 - Dijkstra - Recalulated distances: Dijkstra shortest path algortihm, however distances are recalculated. This prevents the algorithm to get stuck if nodes become unavailable during the routing process.
 - Custom Routing: The user can specify his own simple routing process by providing a priority list. 
-  - Priority list: A  ```.txt``` file containing the neighbors of nodes ordered after their priority.
-  - Syntax:  ```<node>{<neighbor 1>,<neighbor 2>,...,<neighbor n>}```. The file doesn't have to contain priorities for all nodes or neighbors of a node. 
+  - Priority list: A  ```.txt``` file containing the nodes of the graph with their neighbors ordered after their priority. The file doesn't have to contain all nodes or neighbors of a node. However, note that the routing algorithm will ignore nodes or neighbors that are not explicitly listed.
+  - Syntax:  ```<node>{<neighbor 1>,<neighbor 2>,...,<neighbor n>}```. 
+
+**Priority list example**
+```python
+b{c}
+c{e,a}
+e{l,f,c,a}
+a{c,d,e}
+l{f,e}
+f{g,l,e}
+g{j,h}
+j{h,k}
+k{i}
+```
 
 ## Screenshots
 
