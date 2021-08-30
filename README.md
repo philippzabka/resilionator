@@ -25,7 +25,7 @@ The quick menu allows quick access to node/edge creation, creating a test graph 
 **Menu: Graph**
 - Show graph: Show the current graph.
 - Create random graph: Creates a random graph for quick testing.
-- Import graph: Import a graph from a ```.txt```, ```.gml``` or ```.graphml``` file. Text file syntax has to be NetworkX compatile. For more details please consult  [File Format](https://networkx.org/documentation/stable/reference/readwrite/edgelist.html#format).
+- Import graph: Import a graph from a ```.txt```, ```.gml``` or ```.graphml``` file. Text file syntax has to be NetworkX compatile. For more details please consult  [file format](https://networkx.org/documentation/stable/reference/readwrite/edgelist.html#format).
 - Export graph: Export the graph into a ```.txt```, ```.gml``` or ```.graphml``` file.  
 - Save graph as image: Save the current graph as ```.png or .jpg```.
 - Remove graph: Remove the current graph.
