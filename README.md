@@ -69,7 +69,7 @@ k{i}
 For enhancing Resilionator we recommend a solid knowledge in Python as well as graph theory. Further we recommend some experience with Tkinter and NetworkX.
 Resilionator is split into frontend and backend. All calculations concerning networks are processed in the backend. The results are then forwarded to the frontend where they are subsequently displayed. 
 
-Now we introduce some functions in Resiliontor, which can be used to out of the box:
+Now we introduce some functions in Resilionator, which can be used to out of the box:
 
 ## Frames 
 
