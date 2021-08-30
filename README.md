@@ -77,8 +77,8 @@ Now we introduce some functions in Resiliontor, which can be used to out of the 
 - ```createRightFrame``` and ```createLeftFrame```: Creates a paned window. If both frames are created, both will take up an equal amount of space. If only one frame is created it takes up the whole space.
 - ```createDualFrameView```: A more convenient way of creating the frames specified above.
 - ```createMenu```: Creates drop down menues. 
-- ```createPopupWindow```: Creates a Toplevel style window which is appended to the root window. 
-- ```createCanvas```: Creates a FigureCanvas which is necessary to display figures which are generated from Matplotlib.
+- ```createPopupWindow```: Creates a toplevel style window which is appended to the root window. 
+- ```createCanvas```: Creates a canvas which is necessary form displaying figures which are generated from Matplotlib.
 - ```createScrollingFrame```: Creates a scrollable frame, which is appended to the main frame. 
 
 ## Garbage collection for frames
@@ -86,7 +86,7 @@ Now we introduce some functions in Resiliontor, which can be used to out of the 
 Frames in Tkinter need to be deleted manually, if not done correctly it may cause performance issues.
 
 - ```destroyFrame```: Destroys a specific frame. 
-- ```destroyAllFrames```: This method is useful if you want to completely change views. For this method to work frames need to be added to the ```frames``` list. However if you use any of the methods described above this will happend automatically. 
+- ```destroyAllFrames```: This method is useful if you want to completely change views. For this method to work, frames need to be added to the ```frames``` list. However if you use any of the methods described above this will happend automatically. 
 
 ## Utility
 
