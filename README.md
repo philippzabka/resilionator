@@ -1,5 +1,5 @@
 # Resilionator
-Resilionator is a small and portable Python application for identifying and mitigating potential weak points in networks. The application is still in development, so your feedback is welcome! It is built with Python's standard GUI toolkit [Tkinter](https://docs.python.org/3/library/tkinter.html) and [NetworkX](https://networkx.org/).
+Resilionator is a small and portable Python application for identifying and mitigating potential weak points in networks. The application is built with Python's standard GUI toolkit [Tkinter](https://docs.python.org/3/library/tkinter.html) and [NetworkX](https://networkx.org/). The tool is intended primarily for university lecturers or students, but also for small and medium-sized companies and households.
 
 # User Documentation
 
@@ -73,8 +73,6 @@ Now we introduce some functions in Resiliontor, which can be used to out of the 
 
 ## Frames 
 
-We now introduce the most important methods for frame creation: 
-
 - ```createMainFrame```: Creates a frame that is appended to the root window.
 - ```createRightFrame``` and ```createLeftFrame```: Creates a paned window. If both frames are created, both will take up an equal amount of space. If only one frame is created it takes up the whole space.
 - ```createDualFrameView```: A more convenient way of creating the frames specified above.
@@ -93,8 +91,8 @@ Frames in Tkinter need to be deleted manually, if not done correctly it may caus
 ## Utility
 
 - ```importGraph```: Imports a graph from a file. Files formats that are currently supported are ```.txt, .graphml and .gml```. 
--```exportGraph```: Exports a graph to a file. Files formats that are currently supported are ```.txt, .graphml and .gml```. 
--```saveGraphAsImage```: Saves the graph as an image, currently supported formats are ```.jpg and .png```. 
+- ```exportGraph```: Exports a graph to a file. Files formats that are currently supported are ```.txt, .graphml and .gml```. 
+- ```saveGraphAsImage```: Saves the graph as an image, currently supported formats are ```.jpg and .png```. 
 
 ## Graph
 
