@@ -33,7 +33,6 @@ class GUI:
                         'Random',
                         'Spectral',
                         'Spiral']
-        self.G = net.importGraphGraphml('./imports/testGraphRouting.graphml')
         self.dir = '/home'
         self.routingFilePath = ''
         self.createMenu()
